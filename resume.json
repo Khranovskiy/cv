@@ -1,0 +1,127 @@
+{
+  "basics": {
+    "name": "Denis Khranovskiy",
+    "label": "Programmer",
+    "picture": "",
+    "email": "xronosd@gmail.com",
+    "phone": "+79156971651",
+    "website": "https://khranovsky.com",
+    "summary": "",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "Tula",
+      "countryCode": "RU",
+      "region": "Tulskaya oblast"
+    },
+    "profiles": [
+      {
+        "network": "Github",
+        "username": "khranovskiy",
+        "url": "https://github.com/khranovskiy/"
+      },
+      {
+        "network": "Twitter",
+        "username": "xronosd",
+        "url": "https://twitter.com/xronosd"
+      },
+      {
+        "network": "Linkedin",
+        "username": "denis-khranovskiy",
+        "url": "https://linkedin.com/in/denis-khranovskiy/"
+      },
+      {
+        "network": "telegram",
+        "username": "xronosd",
+        "url": "https://t.me/xronosd"
+      },
+      {
+        "network": "Skype",
+        "username": "xronosden",
+        "url": "skype:xronosden"
+      },
+      {
+        "network": "Instagram",
+        "username": "xronosd",
+        "url": "https://www.instagram.com/xronosd/"
+      },
+      {
+        "network": "HackerRank",
+        "username": "xronosd",
+        "url": "https://www.hackerrank.com/xronosd"
+      },
+      {
+        "network": "Personal blog and portfolio",
+        "username": "xronosd",
+        "url": "https://khranovsky.com"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "DevExpress|RichEdit team",
+      "position": "Software Engineer (C#/.NET)",
+      "website": "https://devexpress.com",
+      "startDate": "2009-08-19",
+      "endDate": "",
+      "summary": "",
+      "highlights": [
+        ""
+      ]
+    },
+    {
+      "company": "DevExpress|Spreadsheet team",
+      "position": "Software Engineer (C#/.NET)",
+      "website": "https://devexpress.com",
+      "startDate": "2009-08-19",
+      "endDate": "",
+      "summary": "",
+      "highlights": [
+        ""
+      ]
+    },
+    {
+      "company": "DevExpress|Cloud File Format Converter",
+      "position": "Software Engineer (C#/.NET)",
+      "website": "https://devexpress.com",
+      "startDate": "2009-08-19",
+      "endDate": "",
+      "summary": "",
+      "highlights": [
+        ""
+      ]
+    },
+    {
+      "company": "DevExpress|Analytics team",
+      "position": "Software Engineer (C#/.NET)",
+      "website": "https://devexpress.com",
+      "startDate": "2009-08-19",
+      "endDate": "",
+      "summary": "",
+      "highlights": [
+        ""
+      ]
+    },
+    {
+      "company": "DevExpress|Internal systems team (CRM)",
+      "position": "Fullstack Software Engineer",
+      "website": "https://devexpress.com",
+      "startDate": "2009-08-19",
+      "endDate": "",
+      "summary": "",
+      "highlights": [
+        ""
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Russian",
+      "fluency": "Native"
+    },
+    {
+      "language": "English",
+      "fluency": "Advanced"
+    }
+  ]
+}
