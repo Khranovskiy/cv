@@ -20,6 +20,8 @@ I have been working on Rich Text Editor and Spreadsheet product for almost decad
 
 Я ценю свою работу, я ей увлечен и хочу чтобы мой вклад был ценен.
 
-Interests:
+Interests:  [  ]  [  ]   [  ]  [  ]   [  ]  [  ] 
 
 #portfolio-project
+#linkedin/2-about
+#upwork/2-overview
