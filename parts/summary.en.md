@@ -1,4 +1,4 @@
-I’a software engineer with 10 years experience with .net platform in a creating commercial components for business application developers in a global product company. 
+I’m a software engineer with 10 years experience with .net platform in a creating commercial components for business application developers in a global product company. 
 I have been working on Rich Text Editor and Spreadsheet product for almost decade. We did tons of tricky algorithms, recreated MS Word and Excel in a .net platform with a love to reliability, quality, performance and attention to details.
 Developed several web projects such as company sales platform, file conversion service, sales analytics dashboards.
 _Carried out the stages of product development from idea_, requirements to shipping and maintaining product and was responsible for many parts of products. I like to share knowledge and be a mentor.
