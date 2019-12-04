@@ -1,18 +1,18 @@
 {
   "basics": {
     "name": "Denis Khranovskiy",
-    "label": "Programmer",
-    "picture": "",
+    "label": "Software Engineer",
+    "picture": "https://graph.facebook.com/2470069546382287/picture?width=200&height=200",
     "email": "xronosd@gmail.com",
     "phone": "+79156971651",
     "website": "https://khranovsky.com",
-    "summary": "",
+    "summary": "I’m a software engineer with 10 years of experience with .NET platform in a creating commercial components for business application developers in a global product company. I have been working on Rich Text Editor and Spreadsheet product. With a team we did tons of tricky algorithms, recreated MS Word and Excel in a .net platform with a love to reliability, quality, performance, and attention to details. Developed several web projects such as company sales platform, file conversion service, sales analytics dashboards. I like to share knowledge and be a mentor. I’m familiar with various languages, tools, paradigms such as OOP, functional programming, and TDD. At the same time, I always try to find the best solution and choose the necessary instrument for a specific task. By knowing several ecosystems (.Net, Node.js, JavaScript), I can find the best solution to complex problems. I can quickly get up to speed, learn new technologies, but at the same time I have sufficient experience and pragmatism to understand when existing solutions are more appropriate. I can work both autonomously and as a team member.",
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "Tula",
+      "city": "Moscow",
       "countryCode": "RU",
-      "region": "Tulskaya oblast"
+      "region": "Russia"
     },
     "profiles": [
       {
@@ -29,99 +29,270 @@
         "network": "Linkedin",
         "username": "denis-khranovskiy",
         "url": "https://linkedin.com/in/denis-khranovskiy/"
-      },
-      {
-        "network": "telegram",
-        "username": "xronosd",
-        "url": "https://t.me/xronosd"
-      },
-      {
-        "network": "Skype",
-        "username": "xronosden",
-        "url": "skype:xronosden"
-      },
-      {
-        "network": "Instagram",
-        "username": "xronosd",
-        "url": "https://www.instagram.com/xronosd/"
-      },
-      {
-        "network": "HackerRank",
-        "username": "xronosd",
-        "url": "https://www.hackerrank.com/xronosd"
-      },
-      {
-        "network": "Personal blog and portfolio",
-        "username": "xronosd",
-        "url": "https://khranovsky.com"
       }
     ]
   },
   "work": [
     {
-      "company": "DevExpress|RichEdit team",
-      "position": "Software Engineer (C#/.NET)",
-      "website": "https://devexpress.com",
-      "startDate": "2009-08-19",
-      "endDate": "",
-      "summary": "",
-      "highlights": [
-        ""
-      ]
-    },
-    {
-      "company": "DevExpress|Spreadsheet team",
-      "position": "Software Engineer (C#/.NET)",
-      "website": "https://devexpress.com",
-      "startDate": "2009-08-19",
-      "endDate": "",
-      "summary": "",
-      "highlights": [
-        ""
-      ]
-    },
-    {
-      "company": "DevExpress|Cloud File Format Converter",
-      "position": "Software Engineer (C#/.NET)",
-      "website": "https://devexpress.com",
-      "startDate": "2009-08-19",
-      "endDate": "",
-      "summary": "",
-      "highlights": [
-        ""
-      ]
-    },
-    {
-      "company": "DevExpress|Analytics team",
-      "position": "Software Engineer (C#/.NET)",
-      "website": "https://devexpress.com",
-      "startDate": "2009-08-19",
-      "endDate": "",
-      "summary": "",
-      "highlights": [
-        ""
-      ]
-    },
-    {
-      "company": "DevExpress|Internal systems team (CRM)",
+      "company": "DevExpress - Infrastructure Team",
       "position": "Fullstack Software Engineer",
       "website": "https://devexpress.com",
-      "startDate": "2009-08-19",
-      "endDate": "",
-      "summary": "",
+      "startDate": "2017-11-01",
+      "endDate": "2018-09-20",
+      "summary": "DevExpress is a global product company that specialise in creating UI components for business applications on .NET (Win, WPF, ASP net), JavaScript, VCL platforms for 20 years and for 100k clients worldwide. Company has own CRM that integrates with site online shop, manage licenses, orders, resellers, subscriptions, payments, email newsletters, product releases, HRM and all that systems are developed and maintained by small team of full stack devs",
       "highlights": [
-        ""
+        "За короткий период разобрался в проектах, написанных в разное время с разными технологиями и смог быстро включиться в разработку и приносить пользу, работая с критическими для бизнеса системами",
+        "Активно участвовал в подготовке всей инфраструктуры компании (десятки сервисов) чтобы правильно работать с персональными данными так, как прописано в законе GDPR",
+        "Ускорил CI pipeline с e2e testing работающий на TeamCity с 2 часов до 50 минут, что увеличило производительность команды и упростило выкладку новых релизов",
+        "Нашел security проблему, с помощью которой можно было скачать все данные о продажах за всё время.",
+        "Отрефакторил около 100 e2e тестов на TestCafe что позволило перейти на новую версию дизайна checkout flow на сайте http://devexpress.com/buy/net/"
+      ]
+    },
+    {
+      "company": "DevExpress.com (Spreadsheet Team)",
+      "position": "Senior Software Engineer",
+      "website": "https://devexpress.com",
+      "startDate": "2012-05-01",
+      "endDate": "2017-11-01",
+      "summary": "Spreadsheet WinForms/WPF component for .NET desktop applications.",
+      "highlights": [
+        "Actively participated in product decisions and analytics",
+        "Перевёл команду на работу с Git и ввел практику code review",
+        "Производил сравнение с конкурентами, по многим параметрам",
+        "Улучшил производительность часто используемых операций и устранял утечки памяти (загрузка и сохранение документов, вставка значений, копирование и вставка) и сделал набор benchmark выявляющие регрессии",
+        "Реализовал Cut, Copy and Paste Operations и создал 20 тысяч тестов"
+      ]
+    },
+    {
+      "company": "DevExpress.com (RichEdit Team)",
+      "position": "Software Engineer",
+      "website": "https://devexpress.com",
+      "startDate": "2009-08-19",
+      "endDate": "2012-05-01",
+      "summary": "Rich Text processor compatible with MS Word",
+      "highlights": [
+        "Участвовал в 8 релизах",
+        "Реализовал поддержку OpenDocument Format (.odt), WordprocessingML Format",
+        "Добавил поддержку таблиц и нумерованных списков импорт, экспорт документов HTML формата",
+        "Создал Style Gallery в меню для RichEdit for WPF",
+        "Разработал инструмент для регрессивного тестирования целостности документов при пересохранении"
       ]
     }
-  ],
+  ],  
   "languages": [
     {
       "language": "Russian",
-      "fluency": "Native"
+      "fluency": "Native speaker"
     },
     {
       "language": "English",
       "fluency": "Advanced"
     }
-  ]
+  ],
+  "interests": [
+    {
+      "name": "Functional prog.",
+      "keywords": [
+        "Scala", "Haskell"
+      ]
+    },
+    {
+      "name": "Interfaces",
+      "keywords": [
+        "Offline First", 
+        "Optimistic UI"
+      ]
+    },
+    {
+      "name": "Next level systems",
+      "keywords": [
+        "Collaborative editing",
+        "CRDT",
+        "Local first"
+      ]
+    },
+    {
+      "name": "Startups",
+      "keywords": [
+        "SaaS products",
+        "LEAN"
+      ]
+    },
+    {
+      "name": "Cloud",
+      "keywords": [
+        "Serverless",
+        "AWS"
+      ]
+    },
+    {
+      "name": "Distributed computing",
+      "keywords": [
+        "Data-Intensive Applications",
+        "Decentralization"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Tula State University",
+      "area": "Computer Science",
+      "studyType": "Specialist diploma (Master's degree)",
+      "startDate": "2006-09-01",
+      "endDate": "2011-05-01",
+      "courses": [
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "CRM (Sales Platform) at DevExpress",
+      "summary": "DevExpress has own CRM that integrates with site online shop, manage licenses, orders, resellers, subscriptions, payments, email newsletters, product releases, HRM and all that systems are developed and maintained by small team of full stack devs",
+      "highlights": [
+      ],
+      "keywords": [
+        ".Net core",
+        "ASP.NET MVC",
+        "TestCafe",
+        "CI",
+        "MS SQL Server",
+        "ASP.NET WebForms",
+        "PowerShell",
+        "TeamCity",
+        "React.js",
+        "jQuery",
+        "RabbitMQ"
+      ],
+      "startDate": "2017-11-01",
+      "endDate": "2018-09-20", 
+      "url": "https://devexpress.com",
+      "roles": [ 
+        "senior full stack .Net engineer"
+      ],
+      "entity": "",
+      "type": "application"
+    },
+    {
+      "name": "Cloud file conversion service",
+      "summary": "An office document formats converter service, hosted in Azure Cloud Service VM. It uses DevExpress office file api library, written in .Net 4.6.",
+      "highlights": [
+        "Протестировал работу библиотеки в MS Azure окружении, нашел и исправил ошибки связанные с ограничениями GDI",
+        "Провёл 5 дизайн итераций от идеи, прототипа до финальной версии",
+        "Реализовал серис используя ASP.NET Web API, Azure Blob Storage, ES6, webpack, npm, DevExtreme js controls",
+        "В процессе работы с корпоративной Google Analytics нашел способ уменьшить затраты на AdWords на $680000"
+      ],
+      "keywords": [
+        "Azure", ".NET", "ASP .net MVC", "jQuery", "google-analytics", "html", "css"
+      ],
+      "startDate": "2017-01-01",
+      "endDate": "2017-04-01", 
+      "url": "https://www.devexpress.com/Support/Demos/",
+      "roles": [ 
+        ""
+      ],
+      "entity": "",
+      "type": "service"
+    },
+    {
+      "name": "Spreadsheet component",
+      "summary": "Spreadsheet WinForms/WPF component for .NET desktop applications. It emulates the Microsoft® Excel® look and feel and is able to create, load, edit, save and print spreadsheet documents. It provides comprehensive data shaping and analysis tools, such as data mining, grouping, filtering, and charting. The built-in formula calculation engine allows user to create simple formulas to summarize an information or construct complex formulas containing mathematical, statistical, financial and other predefined functions for advanced data analysis.",
+      "highlights": [
+      ],
+      "keywords": [
+        "c#",
+        ".net",
+        "algorithms",
+        "data structures",
+        "optimization",
+        "design patterns",
+        "refactoring",
+        "tdd",
+        "excel",
+        "winforms",
+        "wpf"
+      ],
+      "startDate": "2012-06-01",
+      "endDate": "2017-11-01", 
+      "url": "https://www.devexpress.com/Products/NET/Controls/WinForms/Spreadsheet/",
+      "roles": [ 
+        "Senior Software Developer"
+      ],
+      "entity": "",
+      "type": "application"
+    },
+    {
+      "name": "Analytics dashboard and Streaming data pipeline",
+      "summary": "Analytics data pipeline using Amazon Kinesis. S3 with reSolve Node.js lib for backend (Event Sourcing, CQRS, DDD) and UI on Node.js/React.js",
+      "highlights": [
+        "Added OpenID connect (to Azure AD) authentication to Node.js app",
+        "Created React/Node.js project structure template",
+        "Implemented customer retention chart with React.js, Redux"
+      ],
+      "keywords": [
+        "Node.js", "MongoDB", "Docker", "React.js", "Redux", "AWS", "Javascript", "Webpack"
+      ],
+      "startDate": "2017-04-01",
+      "endDate": "2017-08-01", 
+      "url": "",
+      "roles": [ 
+        "Node.js developer",
+        "data engineer"
+      ],
+      "entity": "",
+      "type": "system"
+    },
+    {
+      "name": "Office file modification library (.net)",
+      "summary": "A high performance and full-functional API to work with office documents",
+      "highlights": [
+        "Спроектировал и реализовал API для работы с spreadsheet",
+        "Улучшал производительность часто используемых методов",
+        "Создал демонстрационный модуль который содержал примеры работы с API и позволял интерактивно видеть результат, который потом стали применять в других продуктах."
+      ],
+      "keywords": [
+        ".net core", 
+        "public api",
+        "pdf",
+        "excel",
+        "word",
+        "performance"
+      ],
+      "startDate": "2012-06-01",
+      "endDate": "2017-11-01",
+      "url": "https://www.devexpress.com/products/net/office-file-api/",
+      "roles": [
+      ],
+      "entity": "",
+      "type": "library"
+    },
+    {
+      "name": "Rich Text processor compatible with MS Word",
+      "summary": "Developed a Rich Text Editor component. It allows user to integrate advanced text editing capabilities into WinForms/WPF application. It provides comprehensive text formatting options, mail-merge and a rich collection of end-user options (Microsoft Word-inspired functionality)",
+      "highlights": [
+      ],
+      "keywords": [
+        "c#", 
+        "microsoft word",
+        "html",
+        "wpf",
+        "winforms",
+        "xml",
+        "printing",
+        "fonts"
+      ],
+      "startDate": "2009-09-19",
+      "endDate": "2012-07-01",
+      "url": "https://www.devexpress.com/Products/NET/Controls/WinForms/Rich_Editor/",
+      "roles": [ 
+        ".Net Software Engineer"
+      ],
+      "entity": "",
+      "type": "library"
+    }
+  ],
+  "meta": {
+    "canonical": "https://github.com/jsonresume/resume-schema/blob/v1.0.0/schema.json",
+    "version": "v1.0.0",
+    "lastModified": "2017-09-13T15:42:56Z"
+  }
 }

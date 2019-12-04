@@ -15,7 +15,7 @@
 ● Активно участвовал в подготовке за очень короткий срок (за 4 месяца) всей инфраструктуры компании (десятки сервисов) чтобы правильно работать с персональными данными так, как прописано в законе GDPR 
 ● Ускорил CI pipeline с e2e testing работающий на TeamCity с 2 часов до 50 минут, что увеличило производительность команды и упростило выкладку новых релизов
 ● Нашел security проблему, с помощью которой можно было скачать все данные о продажах за всё время.
-● Отрефакторил около 100 e2e тестов на TestCafe что позволило перейти на новую версию дизайна checkout flow на сайте http://devexpress.com/buy/net/ 
+● Отрефакторил около 100 e2e тестов на TestCafe что позволило перейти на новую версию дизайна checkout flow
 
 legacy services support, Internal services, support company-wide infrastructure, 
 
@@ -74,9 +74,21 @@ Kanban methodology, when we everyday get a fresh problem from another office.
 #upwork/5-employment
 
 - As fullstack developer take part of maintaining own devexpress sales and customer management system
-- Prepare system for GDPR compliance
-- Reduce testing time (tests written on TestCafe (DevExpress improved version of Selenium framework). Work with Teamcity, powershell, msbuild, hyper-v)
-- Work with codebase on Asp.net MVC, WebForms, Node.js, javascript, teamcity, mssql and XPO ORM
-- Role: Asp.net Web developer  FULL STACK C# dev, node engineer
+- Prepared system for GDPR compliance
+- Reduced testing time (tests written on TestCafe (DevExpress improved version of Selenium framework). Work with Teamcity, powershell, msbuild, hyper-v)
+- Worked with codebase on Asp.net MVC, WebForms, Node.js, javascript, teamcity, mssql and XPO ORM
 
---------
+- Role: Asp.net Web developer  FULL STACK C# dev, Node.js engineer
+
+-------------------------
+
+CRM (Sales Platform) at DevExpress
+
+DevExpress has own CRM that integrates with site online shop, manage licenses, orders, resellers, subscriptions, payments, email newsletters, product releases, HRM and all that systems are developed and maintained by small team of full stack devs
+• За короткий период разобрался в проектах, написанных в разное время с разными технологиями и смог быстро включиться в разработку и приносить пользу, работая с критическими для бизнеса системами
+• Активно участвовал в подготовке за очень короткий срок (за 4 месяца) всей инфраструктуры компании (десятки сервисов) чтобы правильно работать с персональными данными так, как прописано в законе GDPR
+• Ускорил CI pipeline с e2e testing работающий на TeamCity с 2 часов до 50 минут, что увеличило производительность команды и упростило выкладку новых релизов
+• Нашел security проблему, с помощью которой можно было скачать все данные о продажах за всё время
+• Отрефакторил около 100 e2e тестов на TestCafe что позволило перейти на новую версию дизайна checkout flow
+
+-------------------------

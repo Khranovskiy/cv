@@ -1,0 +1,137 @@
+% !TEX TS-program = lualatex
+
+\documentclass[a4paper,11pt]{article}
+
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage{libertine}
+\usepackage{fontawesome}
+\usepackage{longtable}
+\usepackage[cm]{fullpage}
+
+% headers and footers
+\usepackage{fancyhdr}
+\usepackage{lastpage}
+\pagestyle{fancy}
+\fancyfoot[L]{Denis Khranovskiy}
+\fancyfoot[C]{Page \thepage\ of \pageref*{LastPage}}
+\fancyfoot[R]{\today}
+\renewcommand{\footrulewidth}{0.4pt}% default is 0pt
+\fancyhead{}
+\renewcommand{\headrulewidth}{0pt}
+
+% StackOverflow-like tags
+% https://tex.stackexchange.com/a/311949/142692
+% https://tex.stackexchange.com/questions/387499/how-to-create-a-border-that-looks-like-a-tag
+\usepackage{tikz}
+\definecolor{tagbg}{RGB}{225,236,244}
+\definecolor{tagtxt}{RGB}{88,115,159}
+\newcommand{\sotag}[1]{\tikz[baseline]{\node[anchor=base, rounded corners=0.5ex, text height=1.5ex, text depth=.25ex, fill=tagbg, draw=tagbg, text=tagtxt] {#1};}}
+
+% Helpers for adding job entries
+\newcommand{\job}[2]{\large\sffamily \textbf{#1} at \textbf{#2}}
+\newcommand{\sep}{\multicolumn{2}{c}{}\\}
+
+% tweak the url colors
+\usepackage{hyperref}
+\definecolor{linkcolor}{rgb}{0,0.2,0.6}
+\hypersetup{colorlinks,breaklinks,urlcolor=linkcolor, linkcolor=linkcolor}
+
+% nicer-looking section titles
+\usepackage{titlesec}
+\titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{1em}{3pt}
+
+\begin{document}
+
+% --------------------TITLE-------------
+\par{\centering
+		{\Huge \textsc{Denis Khranovskiy}
+	}\bigskip\par}
+
+\hrule
+\vspace{0.5em}
+\begin{tabular}{rl}
+  \textsc{Phone:}     & +79156971651\\
+  \textsc{Email:}     & \href{mailto:xronosd@gmail.com}{xronosd@gmail.com}\\
+  \textsc{Socials:}   & \faHome{} \href{https://khranovsky.com}{khranovsky.com} 
+                      | \faTwitter{} \href{https://twitter.com/xronosd}{twitter} 
+                      | \faLinkedin{} \href{https://www.linkedin.com/in/denis-khranovskiy/}{linkedin}
+                      | \faGithub{} \href{https://github.com/khranovskiy/}{github}
+                      % | \faStackOverflow{} \href{https://stackoverflow.com/users/8205/igal-tabachnik}{stackoverflow}
+\end{tabular}
+
+\section{Summary}
+\begin{tabular}{p{0.9\textwidth}}
+  I’m a software engineer with 10 years of experience with .NET platform in a creating commercial components for business application developers in a global product company. I have been working on Rich Text Editor and Spreadsheet product. We implemented a tons of tricky algorithms, recreated MS Word and Excel in a .NET platform with a love to reliability, quality, performance, and attention to details. Developed several web projects such as company sales platform, file conversion service, sales analytics dashboards. \\\\
+  I’m familiar with various languages, tools, paradigms such as OOP, functional programming, and TDD. At the same time, I always try to find the best solution and choose the necessary instrument for a specific task. By knowing several ecosystems (.NET, Node.js, JavaScript), I can find the best solution to complex problems. I can quickly get up to speed, learn new technologies, but at the same time I have sufficient experience and pragmatism to understand when existing solutions are more appropriate.\\\\
+  
+  Interests: \sotag{distributed systems} \sotag{node.js} \sotag{functional-programming} \sotag{haskell} \sotag{cloud computing}
+\end{tabular}
+
+\section{Work Experience}
+\begin{longtable}{r|p{0.72\textwidth}}
+  \textsc{Nov 2017--Sep 2018} & \job{Fullstack Software Engineer}{DevExpress} (Infrastructure Team) \\(11 months)
+    &\sotag{c\#} \sotag{.net} \sotag{asp.net mvc} \sotag{ms sql server} \sotag{powershell} \sotag{teamcity} \sotag{rabbitmq} \\&\\
+    
+    &Maintained company CRM that integrates with site online shop, manages licenses, orders, resellers, subscriptions, payments, email newsletters, product releases, HRM\\&\\
+    &За короткий период разобрался в проектах, написанных в разное время с разными технологиями и смог быстро включиться в разработку и приносить пользу, работая с критическими для бизнеса системами\\&\\
+    &Активно участвовал в подготовке всей инфраструктуры компании (десятки сервисов) чтобы правильно работать с персональными данными так, как прописано в законе GDPR\\&\\
+    &Ускорил CI pipeline с e2e testing работающий на TeamCity с 2 часов до 50 минут\\&\\
+    &Нашел security проблему, с помощью которой можно было скачать все данные о продажах за всё время\\&\\
+    &Отрефакторил около 100 e2e тестов на TestCafe что позволило перейти на новую версию дизайна checkout flow на сайте http://devexpress.com/buy/net/ \\&\\
+    &Оптимизировал затраты на \$ 680 000 в Google AdWords\\&\\\sep
+    \hline
+    \multicolumn{2}{r}{\footnotesize\itshape (cont. on the next page)}\\\sep
+  \newpage
+  
+  \textsc{Jan 2017--Apr 2017} & \job{Senior Software Engineer}{DevExpress} (Cloud file conversion service)\\(4 months)
+    &\sotag{ms azure} \sotag{asp .net mvc} \sotag{javascipt} \sotag{ux prototype} \sotag{google-analytics} \sotag{html} \sotag{css}\\&\\ 
+    &An office document formats converter service, hosted in Azure Cloud Service VM. It uses DevExpress office file api library, written in .Net 4.6.\\\sep
+
+  \textsc{Apr 2016--Aug 2016} & \job{Node.js Developer}{DevExpress} (Analytics Team), Russia \\(4 months)
+    &\sotag{node.js} \sotag{mongodb} \sotag{docker} \sotag{aws} \sotag{react.js} \sotag{javascript} \sotag{kinesis firehose}\\&\\
+    &Part time project of building Analytics dashboard and Streaming data pipeline using Amazon Kinesis, reSolve lib for backend (Event Sourcing, CQRS, DDD) and UI on React.js/Redux.\\
+    &Implemented a customer retention chart\\
+    &Created a React/Node.js project structure template\\
+    &Added OpenID connect authentication\\\sep
+
+  \textsc{May 2012--Nov 2017} & \job{Senior Software Engineer}{DevExpress} (Spreadsheet Team), Russia \\(5 years, 6 months)
+    &\sotag{c\#} \sotag{.net} \sotag{algorithms} \sotag{data structures} \sotag{performance} \sotag{design patterns} \sotag{excel}\\&\\
+    &Developed a Spreadsheet component from the first lines of code and actively participated in product decisions and analytics\\
+    &Developed a high performance and full-functional API to work with spreadsheet\\
+    &Перевёл команду на работу с Git и ввел практику code review\\
+    &Производил сравнение с конкурентами, по многим параметрам\\
+    &Улучшил производительность часто используемых операций и устранил многие утечки памяти\\
+    &Реализовал Cut, Copy and Paste Operations и создал 20 тысяч тестов\\\sep
+ 
+  \textsc{Aug 2009--May 2012} & \job{Software Engineer}{DevExpress} (RichEdit Team), Russia \\(2 years, 9 months)
+    &\sotag{c\#} \sotag{ms word} \sotag{api} \sotag{component} \sotag{wpf} \sotag{winforms} \sotag{xml} \sotag{docx} \sotag{doc} \sotag{rtf} \sotag{html} \\&\\
+    &Участвовал в 8 релизах of Rich Text Editor component.\\
+    &Реализовал поддержку OpenDocument Format (.odt), WordprocessingML Format\\
+    &Добавил поддержку таблиц и нумерованных списков импорт, экспорт из HTML формата\\
+    &Создал Style Gallery в меню для RichEdit for WPF\\
+    &Разработал инструмент для регрессивного тестирования\\\sep
+\end{longtable}
+
+\section{Programming Proficiency}
+\begin{tabular}{rl}
+  \textsc{Languages:}& Scala, C\# (proficient), Haskell (intermediate), F\#, OCaml (familiar), Rust, Python (learning)\\
+  \textsc{Patterns:}& FP, OOP, ES/CQRS, DDD, TDD, Property-based testing\\
+  \textsc{Libraries:}& http4s, ZIO, Cats, Cats-Effect, Circe, Refined, Doobie, PureConfig, Specs2, ScalaCheck\\
+  \textsc{Tools:}& Bazel, SBT, IntelliJ SDK, Nix, Docker, TeamCity\\
+  \textsc{Misc:}& Category Theory, abstract algebra (learning)
+\end{tabular}
+
+\section{Skills and Accomplishments}
+\begin{tabular}{rl}
+  \textsc{Languages:}& English, Russian\\
+\end{tabular}
+
+\section{Specializations}
+\begin{tabular}{rl}
+  \textsc{Courses:}
+  &Functional Programming Principles in Scala | Coursera\\
+  &Learning How to Learn | Coursera\\
+\end{tabular}
+
+\end{document}

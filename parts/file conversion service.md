@@ -16,6 +16,19 @@ An office document formats converter service, hosted in Azure Cloud Service VM. 
 ● Изучил популярность сценариев конвертации документов из одного формата в другой (поддерживалось 30 разных форматов файлов)
 ● Нашел растрату денег в 680 k $/ год за неправильную настроенную рекламную кампанию в DevExpress
 
+------------------------
+Cloud file conversion service
+Web single page application демонстрирующее возможность конвертации документа в разные форматы с примерами кода и работающее в Microsoft Azure
+
+• Протестировал работу библиотеки в MS Azure окружении, нашел и исправил ошибки связанные с ограничениями GDI.
+• Провёл 5 дизайн итераций от идеи, прототипа до финальной версии
+• Реализовал серис используя ASP.NET Web API, Azure Blob Storage, ES6, webpack, npm, DevExtreme js controls, 
+• В процессе работы с корпоративной Google Analytics нашел способ уменьшить затраты на AdWords на $680000
+
+Kw: Azure, .NET, ASP .net MVC, jQuery, google-analytics
+------------------------
+
+
 
 Tech & Languages
 * MS Azure Cloud Service

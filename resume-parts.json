@@ -69,12 +69,65 @@
       ]
     },
     {
-      "name": "Compression",
+      "name": "Software Development",
       "level": "Master",
       "keywords": [
-        "Mpeg",
-        "MP4",
-        "GIF"
+        "C#",
+        "Node.js",
+        ".NET",
+        "JavaScript",
+        "Git",
+        "Visual Studio",
+        "Software Design",
+        ".NET Core",
+        "Performance Profiling",
+        "DevExpress"
+      ]
+    }, 
+    {
+      "name": "Backend Development",
+      "level": "advanced",
+      "keywords": [
+        "SQL",
+        "Microsoft SQL Server",
+        "Databases",
+        "Microservices",
+        "Docker",
+        "TypeScript"
+      ]
+    },
+    {
+      "name": "Web Development",
+      "level": "Master",
+      "keywords": [
+        "JavaScript",
+        "React.js",
+        "ASP.NET Core",
+        "ASP.NET MVC",
+        "HTML5",
+        "CSS",
+        "Accessibility"
+      ]
+    },
+    {
+      "name": "Cloud Computing",
+      "level": "beginner",
+      "keywords": [
+        "Microsoft Azure", "Amazon Web Services (AWS)"
+      ]
+    },
+    {
+      "name": "Distributed Systems",
+      "level": "beginner",
+      "keywords": [
+
+      ]
+    },
+    {
+      "name": "",
+      "level": "",
+      "keywords": [
+
       ]
     }
   ],

@@ -1,0 +1,41 @@
+{
+  "name": "022-cv",
+  "version": "1.0.0",
+  "description": "Adapted from [hmemcpy/cv](https://github.com/hmemcpy/cv) by Igal Tabachnik.",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "jsonresume-theme-flat": "^0.3.7",
+    "jsonresume-theme-kendall": "^0.1.19",
+    "jsonresume-theme-modern": "0.0.18",
+    "jsonresume-theme-onepage": "0.0.3",
+    "jsonresume-theme-paper": "^0.3.5",
+    "jsonresume-theme-short": "^0.1.7",
+    "jsonresume-theme-slick": "^0.1.16",
+    "jsonresume-theme-spartan": "^0.2.1",
+    "jsonresume-theme-stackoverflow": "^1.4.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "spartan": "resume export resume.pdf -t spartan",
+    "stackoverflow": "resume export resume.pdf -t stackoverflow",
+    "slick": "resume export resume.pdf -t slick",
+    "modern": "resume export resume.pdf -t modern",
+    "flat": "resume export resume.pdf -t flat",
+    "short": "resume export resume.pdf -t short",
+    "paper": "resume export resume.pdf -t paper",
+    "onepage": "resume export resume.pdf -t onepage",
+    "kendall": "resume export resume.pdf -t kendall"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Khranovskiy/cv.git"
+  },
+  "keywords": [],
+  "author": "Denis Khranovsky <xronosd@gmail.com> (khranovsky.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Khranovskiy/cv/issues"
+  },
+  "homepage": "https://github.com/Khranovskiy/cv#readme"
+}

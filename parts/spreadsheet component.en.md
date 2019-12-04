@@ -4,7 +4,9 @@
 #portfolio-project
 #linkedin/4-projects
 
-XtraSpreadsheet is a spreadsheet commercial component for enterprise desktop applications. Handled profitable product for hundreds of customers. Solved customer problems and help get their job done.
+XtraSpreadsheet is a spreadsheet commercial component for enterprise desktop applications. 
+
+Handled profitable product for hundreds of customers. Solved customer problems and help get their job done.
 
 * I've been participating in the development of the product from the beginning through all stages of development.
 * Was responsible for detecting performance regressions and memory consumption degradation.
@@ -51,8 +53,22 @@ Often organisations have to work with xlsx documents, generate reports, read the
 #upwork/5-employment
 
 
-- Make global product that will have lots of awards from Visual Studio Magazine, ComponentSource from beginning to nowadays.
+- Made global product that will have lots of awards from Visual Studio Magazine, ComponentSource from beginning to nowadays.
 - Did performance optimizations various parts of component (memory consumption, reduce memory traffic, performance with tools like JetBrains dotTrace, Jetbrains DotMemory)
 - Compare products with competitors
 - Designed and implemented public api.
 - Couched team to use GIT instead own devexpress VCS
+
+--------------------
+Spreadsheet component compatible with MS Excel
+
+Spreadsheet WinForms/WPF component for .NET desktop applications.
+
+
+It emulates the Microsoft® Excel® look and feel and is able to create, load, edit, save and print spreadsheet documents. It provides comprehensive data shaping and analysis tools, such as data mining, grouping, filtering, and charting. The built-in formula calculation engine allows user to create simple formulas to summarize an information or construct complex formulas containing mathematical, statistical, financial and other predefined functions for advanced data analysis.
+
+• Участвовал в планировании развития продукта
+• Перевёл команду на работу с Git и ввел практику code review
+• Производил сравнение с конкурентами, по многим параметрам
+• Улучшил производительность часто используемых операций и устранял утечки памяти (загрузка и сохранение документов, вставка значений, копирование и вставка) и сделал набор benchmark выявляющие регрессии
+• Реализовал Cut, Copy and Paste Operations и создал 20 тысяч тестов
