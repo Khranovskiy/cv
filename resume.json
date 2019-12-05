@@ -293,7 +293,7 @@
   "skills": [
     {
       "name": "C#",
-      "level": "Expert 243/300",
+      "level": "master Expert 243/300",
       "keywords": [
         "Events, Delegates and Lambdas",
         "Interfaces",
@@ -305,7 +305,7 @@
     },
     {
       "name": "JavaScript",
-      "level": "Proficient 185/300",
+      "level": "fluent Proficient 185/300",
       "keywords": [
         "Loops and Iteration",
         "Classes and Modules",
@@ -317,13 +317,13 @@
     },
     {
       "name": "ES6",
-      "level": "Master",
+      "level": "",
       "keywords": [
       ]
     },
     {
       "name": "HTML5",
-      "level": "PROFICIENT 198/300",
+      "level": "advanced PROFICIENT 198/300",
       "keywords": [
         "Device APIs",
         "Data Storage",
@@ -332,7 +332,7 @@
     },
     {
       "name": "Node.js",
-      "level": "Proficient 186/300",
+      "level": "intermediate 186/300",
       "keywords": [
         "The Operating System and The File System",
         "Child Processes and Clusters",
@@ -368,7 +368,7 @@
     },
     {
       "name": "ASP.NET MVC5",
-      "level": "Proficient 177/300",
+      "level": "intermediate 177/300",
       "keywords": [
         "Observing and Manipulating Requests with Filters",
         "Using Middleware with OWIN/Katana",
@@ -386,7 +386,7 @@
     },
     {
       "name": "Git",
-      "level": "Proficient 197/300",
+      "level": "fluent 197/300",
       "keywords": [
         "Understanding How Git Works",
         "Managing Branches",
@@ -397,13 +397,13 @@
     },
     {
       "name": "Visual Studio",
-      "level": "Expert 212/300",
+      "level": "fluent Expert 212/300",
       "keywords": [
       ]
     },
     {
       "name": "Web Application Security",
-      "level": "PROFICIENT 117/300",
+      "level": "intermediate PROFICIENT 117/300",
       "keywords": [
         "Serialization and deserialization",
         "Secure configuration",
@@ -415,7 +415,7 @@
     },
     {
       "name": "NPM",
-      "level": "PROFICIENT 123/300",
+      "level": "intermediate PROFICIENT 123/300",
       "keywords": [
         "Developer Environment",
         "CLI Commands",
