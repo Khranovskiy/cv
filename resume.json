@@ -290,7 +290,143 @@
       "type": "library"
     }
   ],
+  "skills": [
+    {
+      "name": "C#",
+      "level": "Expert 243/300",
+      "keywords": [
+        "Events, Delegates and Lambdas",
+        "Interfaces",
+        "Variables",
+        "Type Conversions",
+        "The Type System",
+        "Operators"
+      ]
+    },
+    {
+      "name": "JavaScript",
+      "level": "Proficient 185/300",
+      "keywords": [
+        "Loops and Iteration",
+        "Classes and Modules",
+        "Functions",
+        "Types",
+        "Control Flow and Error Handling",
+        "Objects"
+      ]
+    },
+    {
+      "name": "ES6",
+      "level": "Master",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "HTML5",
+      "level": "PROFICIENT 198/300",
+      "keywords": [
+        "Device APIs",
+        "Data Storage",
+        "Markup: Rules"
+      ]
+    },
+    {
+      "name": "Node.js",
+      "level": "Proficient 186/300",
+      "keywords": [
+        "The Operating System and The File System",
+        "Child Processes and Clusters",
+        "Concurrency",
+        "Modules and NPM",
+        "Node.js Fundamentals",
+        "Web and Network"
+      ]
+    },
+    {
+      "name": "CSS",
+      "level": "beginner",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "Docker",
+      "level": "beginner",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "React",
+      "level": "beginner",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "Rxjs",
+      "level": "beginner",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "ASP.NET MVC5",
+      "level": "Proficient 177/300",
+      "keywords": [
+        "Observing and Manipulating Requests with Filters",
+        "Using Middleware with OWIN/Katana",
+        "Navigating with Routing",
+        "Developing a REST Web Service with Web API",
+        "Creating Visuals With Views and Razor",
+        "Server- and client-side Validation"
+      ]
+    },
+    {
+      "name": "Entity Framework Core",
+      "level": "beginner",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "Git",
+      "level": "Proficient 197/300",
+      "keywords": [
+        "Understanding How Git Works",
+        "Managing Branches",
+        "Moving Data Across Git's Areas",
+        "Fixing Mistakes",
+        "Configuring Git"
+      ]
+    },
+    {
+      "name": "Visual Studio",
+      "level": "Expert 212/300",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "Web Application Security",
+      "level": "PROFICIENT 117/300",
+      "keywords": [
+        "Serialization and deserialization",
+        "Secure configuration",
+        "Advanced secure coding practices",
+        "Access control",
+        "Common vulnerabilities in web applications",
+        "Input validation"
+      ]
+    },
+    {
+      "name": "NPM",
+      "level": "PROFICIENT 123/300",
+      "keywords": [
+        "Developer Environment",
+        "CLI Commands",
+        "Packages & Modules",
+        "Authentication",
+        "Private Packages"
+      ]
+    }
+  ],
   "meta": {
+    "theme": "stackoverflow" ,
     "canonical": "https://github.com/jsonresume/resume-schema/blob/v1.0.0/schema.json",
     "version": "v1.0.0",
     "lastModified": "2017-09-13T15:42:56Z"
