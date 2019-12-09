@@ -1,5 +1,6 @@
 {
   "name": "022-cv",
+  "private": true,
   "version": "1.0.0",
   "description": "Adapted from [hmemcpy/cv](https://github.com/hmemcpy/cv) by Igal Tabachnik.",
   "main": "index.js",
