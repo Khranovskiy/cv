@@ -13,7 +13,7 @@
 \usepackage{lastpage}
 \pagestyle{fancy}
 \fancyfoot[L]{Denis Khranovskiy}
-\fancyfoot[C]{Page \thepage\ of \pageref*{LastPage}}
+\fancyfoot[C]{Page \thepage\ of 2} %\pageref*{LastPage}
 \fancyfoot[R]{\today}
 \renewcommand{\footrulewidth}{0.4pt}% default is 0pt
 \fancyhead{}
@@ -80,6 +80,17 @@
 
 \section{Work Experience}
 \begin{longtable}{r|p{0.72\textwidth}}
+  \textsc{Feb 2020--May 2021} & \job{Team lead - Backend}{Itoolabs} (Services Team) \\(1 year, 5 months)
+    &\sotag{go} \sotag{mongoDB} \sotag{postgreSQL} \sotag{kafka} \sotag{clickhouse} \sotag{docker} \sotag{linux} \sotag{grpc}\\&\\
+    &Product is the telecommunications core of VOIP telephony. Billions of calls, 70 million mobile unique numbers serviced per year.\\&\\
+    &Led 2 teams of 5 people, grew the team from 2 to 10 a year\\
+    &Maintained 10+ services and 2 concurrently active projects\\
+    &Mentored junior/middle developers\\
+    &Bring 1:1 meetings with employees\\
+    &Interviewed candidates\\
+    &Made an onboarding guide\\
+    &made a service template on the go for future services.\\\sep
+
   \textsc{Nov 2017--Sep 2018} & \job{Full stack Software Engineer}{DevExpress} (Infrastructure Team) \\(11 months)
     &\sotag{c\#} \sotag{.net} \sotag{soa} \sotag{asp.net mvc} \sotag{ms sql server} \sotag{security} \sotag{powershell} \sotag{rabbitmq}\\&\\
     
@@ -104,9 +115,10 @@
     &Implemented a customer retention chart using React.js/Redux.\\
     % &Created a React.js/Node.js project structure template.\\
     &Added OpenID connect authentication.\\\sep
-    \hline
-    \multicolumn{2}{r}{\footnotesize\itshape (cont. on the next page)}\\\sep
-  \newpage
+    
+    % \hline
+    % \multicolumn{2}{r}{\footnotesize\itshape (cont. on the next page)}\\\sep
+  % \newpage
 
   \textsc{May 2012--Nov 2017} & \job{Senior Software Engineer}{DevExpress} (Spreadsheet Team), Russia \\(5 years, 6 months)
     &\sotag{c\#} \sotag{.net} \sotag{algorithms} \sotag{data structures} \sotag{performance} \sotag{design patterns} \sotag{excel}\\&\\
