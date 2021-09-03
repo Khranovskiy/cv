@@ -13,7 +13,7 @@
 \usepackage{lastpage}
 \pagestyle{fancy}
 \fancyfoot[L]{Denis Khranovskiy}
-\fancyfoot[C]{Page \thepage\ of 3} %\pageref*{LastPage}
+\fancyfoot[C]{Page \thepage\ of \pageref*{LastPage}}
 \fancyfoot[R]{\today}
 \renewcommand{\footrulewidth}{0.4pt}% default is 0pt
 \fancyhead{}
@@ -95,7 +95,10 @@
     % Reduce cost of maintainence by refactoring legacy code according to a new standards and best practices
     % \hline
     % \multicolumn{2}{r}{\footnotesize\itshape (abbreviated work history below, see LinkedIn profile for full details)}\\\sep
-  
+  \hline
+    \multicolumn{2}{r}{\footnotesize\itshape (cont. on the next page)}\\\sep
+  \newpage
+
   \textsc{Jan 2017--Apr 2017} & \job{Senior Software Engineer}{DevExpress} (Cloud file conversion service)\\(4 months)
     &\sotag{ms azure} \sotag{asp.net mvc} \sotag{javascript} \sotag{ux prototype} \sotag{google-analytics} \sotag{html} \sotag{css}\\&\\ 
     &Created an office document formats converter service, hosted in Azure Cloud Service VM.
@@ -107,10 +110,6 @@
     &Implemented a customer retention chart using React.js/Redux.\\
     % &Created a React.js/Node.js project structure template.\\
     &Added OpenID connect authentication.\\\sep
-    
-    % \hline
-    % \multicolumn{2}{r}{\footnotesize\itshape (cont. on the next page)}\\\sep
-  % \newpage
 
   \textsc{May 2012--Nov 2017} & \job{Senior Software Engineer}{DevExpress} (Spreadsheet Team), Russia \\(5 years, 6 months)
     &\sotag{c\#} \sotag{.NET} \sotag{algorithms} \sotag{data structures} \sotag{performance} \sotag{design patterns} \sotag{excel}\\&\\
@@ -168,27 +167,27 @@
 
 \section{Interests}
 \begin{tabular}{rl}
-  \textsc{Interests:}
+  \textsc{Interests}
     &Engineering management.\\
     &Practice english to pass TOEFL test.\\
     &Next langs: Elixir/Erlang, Closure, ReScript, Haskell.\\
     &Earn AWS/GCP certificate in a cloud tech.\\
-  \textsc{Hobbies:}
+  \textsc{Hobbies}
     &Meditation, hikiking, cycling, cats. \\
     &Tech podcasts.\\
 \end{tabular}
 
 \section{Skills and Accomplishments}
 \begin{tabular}{rl}
-  \textsc{Languages:}& English (Intermediate), Russian (Native).\\\sep
-  \textsc{Courses:}
+  \textsc{Languages}& English (Intermediate), Russian (Native).\\\sep
+  \textsc{Courses}
     &Functional Programming Principles in Scala | Coursera.\\
     &Learning How to Learn | Coursera.\\\sep
-  \textsc{Master-classes:}
+  \textsc{Master-classes}
     &CI/CD for frontend-engineer | javascript.ninja. \\
     &GraphQL for frontend-engineer | javascript.ninja. \\
     &Unit-testing JS | javascript.ninja. \\
-  \textsc{Online meetups}
+  \textsc{Meetups}
     &Podlodka backend crew (2021) | podlodka.io/crew. \\
     &Podlodka team lead crew (2020) | podlodka.io/crew. \\
 \end{tabular}
