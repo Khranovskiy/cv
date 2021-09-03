@@ -31,3 +31,15 @@ Js нравится своей лаконичностью, обратной по
 collaboration, offline first, optimistic UI, accessibility, etc
 
 проектирование service oriented architecture
+
+
+User Interface Technologies
+
+interest in creative and collaborative computing and a background in distributed systems and developer experience.
+
+PRODUCTIVITY
+
+We have written about our research on data ownership and collaboration, tablet+stylus interfaces, end-user programming, the creative process, and **software performance**.
+
+Decentralized, offline-first, realtime collaboration
+
