@@ -12,7 +12,11 @@ Ideally you:
 • Located somewhere I’d like to live (London, Netherlands)
 • Or, is a thriving remote-friendly team (e.g. Buffer, GitLab, WordPress, etc)
 • Or can offer me a radical career change (i.e. into machine learning)
+• no burocracy, no agile scrum kanban cargo cult
+• keep calm
 
-Open to fill time remote positions.
+Open to full time remote positions.
 
 Please send me clear “Why me?” story.
+
+• нет какогото комитмента что ты обязательно работу ко времени должен доделать - типа рисёрч
